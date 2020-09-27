@@ -16,7 +16,7 @@ namespace Welcome
             int empFTWageMonth = 0;
             int empPTWageMonth = 0;
 
-            //Calculate Monthly wage for Full Time and Part Time
+            // Calculate Monthly wage for Full Time and Part Time
 
             for (int emphrrate = 1; emphrrate <= 20; emphrrate++)
             {
