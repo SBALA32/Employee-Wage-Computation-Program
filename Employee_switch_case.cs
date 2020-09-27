@@ -14,7 +14,7 @@ namespace Welcome
             int empHr = 8;
             empWage = empHr * EmpRatePerHour;
 
-            //Check for Full Time or Part Time
+            // Check for Full Time or Part Time
 
             Random random = new Random();
             int empCheck = random.Next(0, 3);
