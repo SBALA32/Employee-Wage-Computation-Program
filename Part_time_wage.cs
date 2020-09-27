@@ -13,6 +13,8 @@ namespace Welcome
             int empWage = 0;
             int empHr = 0;
 
+            //Check attendance of Part Time Employee
+
             Random random = new Random();
             int empCheck = random.Next(0, 2);
             if (empCheck == IsPartTime)
@@ -25,6 +27,9 @@ namespace Welcome
                 Console.WriteLine("Part time Employee is Absent!");
                 empHr = 0;
             }
+
+            //Calculation of wage
+
             empWage = empHr * EmpRatePerHour;
             Console.WriteLine("Part time Employee Wage = " + empWage);
         }
