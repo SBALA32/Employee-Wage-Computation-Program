@@ -13,7 +13,7 @@ namespace Welcome
             int empWage = 0;
             int empHr = 0;
 
-            //Check attendance of Part Time Employee
+            //Check for attendance of Part Time Employee
 
             Random random = new Random();
             int empCheck = random.Next(0, 2);
