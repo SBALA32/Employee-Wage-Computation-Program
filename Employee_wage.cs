@@ -13,7 +13,7 @@ namespace Welcome
             int empWage = 0;
             int empHr = 0;
 
-            //Check Attendance
+            // Check Attendance
 
 	    Random random = new Random();
             int empCheck = random.Next(0, 2);
@@ -28,7 +28,7 @@ namespace Welcome
                 empHr = 0;
             }
 	    
-	    //Calculate Employee Daily Wage
+	    // Calculate Employee Daily Wage
 
             empWage = empHr * EmpRatePerHour;
             Console.WriteLine("Employee Wage = " + empWage);
